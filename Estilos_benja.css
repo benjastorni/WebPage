@@ -1,0 +1,19 @@
+
+/*Página de estilos css para la web. Se organiza de más grande a más pequeño*/
+
+h1 {text-align: center; background-color: rgb(231, 231, 231,0.5)}
+
+h2 {text-decoration: underline}
+
+section {line-height:1.5; text-align:justify}
+
+dl {margin-left:2%}
+
+.subtitulo {font-family:Times New Roman, Arial}
+
+.listaDivulgacion {padding-left:1.5%}
+
+/*#retrato {position: absolute; left:75%; top:1%; width:80px; height:100px}*/
+
+/*#publicaciones {line-height:1.5;}*/
+
