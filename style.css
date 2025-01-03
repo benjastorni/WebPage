@@ -1,15 +1,24 @@
 
 /*Página de estilos css para la web. Se organiza de más grande a más pequeño*/
 
-h1 {text-align: center; background-color: rgb(231, 231, 231,0.5)}
+h1 {text-align: center; 
+	  background-color: rgb(231, 231, 231,0.5)}
 
-h2 {font-family: Times New Roman, Arial; text-decoration: underline; margin-left: 1%; margin-right: 1%}
+h2 {text-decoration: underline; 
+	  margin-left:1.5%; 
+	  font-family:Times New Roman, Arial}
 
-section {line-height: 1.5; text-align: justify}
+section {display: none; /* Oculta todas las secciones */
+		    line-height:1.5; 
+		    text-align:justify; 
+		    box-sizing: border-box; 
+		    margin-right: 1.5%; 
+		    margin-left:1.5%}
 
-dl {margin-left: 2%; margin-right: 1%}
+section.visible {display: block} /* Muestra la sección activa */
+
+ul{margin-left:-1.5%}
+
+dl {margin-left:2%}
 
 .listaDivulgacion {padding-left:1.5%}
-
-/*#retrato {position: absolute; left:75%; top:1%; width:80px; height:100px}*/
-
